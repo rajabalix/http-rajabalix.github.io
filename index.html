@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rajab Ali – Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(180deg, #0f1720 0%, #161b22 100%);
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin: 0;
+      color: #58a6ff;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.1rem;
+      color: #8b949e;
+    }
+    .socials {
+      margin-top: 1rem;
+      display: inline-flex;
+      gap: 0.75rem;
+    }
+    .socials a {
+      color: #c9d1d9;
+      text-decoration: none;
+      font-size: 0.95rem;
+      padding: 0.35rem 0.6rem;
+      border-radius: 6px;
+      background: rgba(88,166,255,0.08);
+      border: 1px solid rgba(88,166,255,0.06);
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    h2 {
+      color: #58a6ff;
+      border-bottom: 2px solid #30363d;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1rem;
+    }
+    .card {
+      background: #0f1418;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+      border: 1px solid rgba(255,255,255,0.02);
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 18px rgba(2,6,23,0.6);
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .contact-list {
+      display: grid;
+      gap: 0.4rem;
+      font-size: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      background: #12161a;
+      color: #8b949e;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      .socials a { font-size: 0.85rem; padding: 0.3rem 0.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I’m Rajab Ali 👋</h1>
+    <p>Developer | Open Source Enthusiast | Tech Explorer</p>
+    <div class="socials" aria-label="social links">
+      <a href="https://github.com/rajabalix" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://x.com/RHanifx" target="_blank" rel="noopener">X (Twitter) (@RHanifx)</a>
+      <a href="mailto:rajabalihanifx@gmail.com">Email</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate developer exploring web, blockchain, and open source.
+      I enjoy building projects, learning new technologies, and sharing my work with the community.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>🔹 Project 1</h3>
+        <p>A short description of Project 1. Replace this text with what the project does and tech used.</p>
+        <a href="https://github.com/rajabalix">View on GitHub</a>
+      </div>
+      <div class="card">
+        <h3>🔹 Project 2</h3>
+        <p>A short description of Project 2. Replace this with details or a live demo link.</p>
+        <a href="https://github.com/rajabalix">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <div class="contact-list">
+      <div>📧 Email: <a href="mailto:rajabalihanifx@gmail.com">rajabalihanifx@gmail.com</a></div>
+      <div>🐦 X: <a href="https://x.com/RHanifx" target="_blank" rel="noopener">@RHanifx</a></div>
+      <div>🐙 GitHub: <a href="https://github.com/rajabalix" target="_blank" rel="noopener">github.com/rajabalix</a></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Rajab Ali | Built with ❤ using GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
